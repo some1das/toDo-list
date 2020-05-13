@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(to right,blue,white);
+    
+}
+.title{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    width: 60vw
+    float:left;
+}
+.im{
+    height: 20vw;
+    width: 20vw;
+    float: left;
+
+}
+.im img{
+    height: 15vw;
+    width: 15vw;
+}
+.container{
+    position: relative;
+    top: 30vh;
+    left: 0vw;
+}
+.container #input{
+    height: 20px;
+    width: 60vw;
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.container button{
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    background-color:green;
+    color: white;
+}
+#ul button{
+    background-color: red;
+    float: right;
+}
+#ul li{
+    height: 40px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    border-radius:10px;
+    
+    text-align:justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ul{
+    list-style: none;
+    background-color: rgb(177, 13, 95);
+}
